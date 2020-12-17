@@ -28,6 +28,6 @@ public @Data class EmployeePayrollData {
 		this.startDate = employeePayrollDTO.startDate;
 		this.note = employeePayrollDTO.note;
 		this.profilePic = employeePayrollDTO.profilePic;
-		this.departments = employeePayrollDTO.departments;
+		this.departments = employeePayrollDTO.department;
 	}
 }
